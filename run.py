@@ -1,4 +1,5 @@
 import os
+os.system("git pull")
 try:
     import requests
 except ImportError:
@@ -18,6 +19,7 @@ except ImportError:
     os.system('pip install rich')
 #################################################################################
 import ru
+os.system("git pull")
 
 if __name__ == '__main__':
     os.system("git pull");os.system("pkg install play-audio")
